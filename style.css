@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0; /* Zerar a margem do arquivo é uma prática padrão para evitar que ocorra qualquer tipo de influência nas margens de outros elementos do documento */
+    font-family: 'inter';
+}
+
+#logo {
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#titulo-menusuperior {
+    margin-top: 100px;
+    margin-left: 172px;
+}
+
+#texto-menusuperior {
+    margin-top: 32px;
+    margin-left: 172px;
+    padding-bottom: 87px;
+}
+
+#menusuperior {
+    background-image: url(img/fundo-menusuperior.svg);
+    color: #FFFFFF;
+    height: 460px;
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    /* Define que a organização do elemento div#menuinformacional será em grade */
+    grid-auto-flow: column;
+    /* Define que a grade será organizada em colunas */
+    columns: auto;
+    /* Define a quantidade de colunas da grade automaticamente */
+}
+
+.icone {
+    margin: 65px 16px 65px 260px;
+}
+
+.textoinformativo {
+    display: flex;
+    /* Garante que o elemento possa ser centralizado */
+    align-items: center;
+    /* Centraliza o elemento */
+}
+
+#relogio,#camera {
+    margin-left: 0px;
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin: 87px 172px 24px 4px;
+}
+
+#secao-video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 80px 0px 80px 374px;
+}
+
+#elemento-texto-video {
+    margin: 12px 172px 97px 5px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+#titulo-carrossel {
+    color: #EAECE5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#secao-cards {
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 330px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 22%;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.2s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    margin-top: 22px;
+    margin-bottom: 47px;
+    color: #383838;
+}
+
+input {
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin-bottom: 39px;
+    border: 0px;
+    border-radius: 8px;
+    padding-left: 19px;
+    padding-right: 20px;
+}
+
+button {
+    width: 335px;
+    height: 53px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #247BA0;
+    color: #FFFFFF;
+    margin-bottom: 109px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #009b53;
+    color: white;
+    transform: translateY(-10px);
+    transition-duration: 0.2s;
+    box-shadow: 10px 10px 20px #464d50a8;
+}
