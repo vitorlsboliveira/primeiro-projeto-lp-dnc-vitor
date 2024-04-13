@@ -1,3 +1,3 @@
-# projeto-landing-page-dnc
+# projeto-landing-page-dnc-vitor
 Este é o meu primeiro projeto de desenvolvimento web do ciclo base da Formação em Tecnologia da Escola DNC.
 Segue link onde o projeto foi hospedado: https://primeiro-projeto-lp-dnc-vitor.netlify.app/
