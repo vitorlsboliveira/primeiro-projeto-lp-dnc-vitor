@@ -1,1 +1,1 @@
-Este é o meu primeiro projeto do curso de Desenvolvedor Full Stack da Escola de Tecnologia da DNC. Este projeto foi o Desafio do ciclo base, onde desenvolvi uma landing page. Segue link onde o projeto foi hospedado: https://primeiro-projeto-lp-dnc-vitor.netlify.app/
+Este é o meu primeiro projeto do curso de Desenvolvedor Full Stack da escola de Tecnologia da DNC. Este projeto foi o Desafio do ciclo base, onde desenvolvi uma landing page. Segue link onde o projeto foi hospedado: https://primeiro-projeto-lp-dnc-vitor.netlify.app/
